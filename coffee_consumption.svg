@@ -5,7 +5,8 @@
 	<defs>
 		<style><![CDATA[
 
-			/* css rules go here */
+			.country_name, .country_value { fill:#42210b; }
+			.heading_b { fill:#fff; }
 
 		]]></style>
 	</defs>
