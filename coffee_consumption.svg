@@ -8,6 +8,21 @@
 			.country_name, .country_value { fill:#42210b; }
 			.heading_b { fill:#fff; }
 
+			#infographic_medium { display: none; }
+			#infographic_small { display: none; }
+
+			@media screen and (max-width: 768px) {
+				#infographic_large { display: none; }
+				#infographic_medium { display: block; }
+			}
+
+			@media screen and (max-width: 480px) {
+				#infographic_medium { display: none; }
+				#infographic_small { display: block; }
+				.country_name, .country_value { fill:#fff; }
+				.heading_b { fill:#42210b; }
+			}
+
 		]]></style>
 	</defs>
 		 
