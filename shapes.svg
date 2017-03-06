@@ -6,8 +6,18 @@
 		<style><![CDATA[
 
       .box { fill: #f00; }
-      .oval { fill: #0f0; }
-      .star { fill: #00f; }
+      .oval { fill: #0f0; display: none; }
+      .star { fill: #00f; display: none; }
+
+      @media screen and (max-width: 400px) {
+        .box { display: none; }
+        .oval { display: block; }
+      }
+
+      @media screen and (max-width: 300px) {
+        .oval { display: none; }
+        .star { display: block; }
+      }
 
 		]]></style>
 	</defs>
